@@ -19,10 +19,12 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
-    - name: Configurar Gradle de forma automática
+    - name: Configurar Gradle Estable
       uses: gradle/actions/setup-gradle@v3
+      with:
+        gradle-version: '8.7'
 
-    - name: Compilar APK con Gradle interno
+    - name: Compilar APK
       run: gradle assembleDebug
 
     - name: Guardar el APK para descargar
