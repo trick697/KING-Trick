@@ -1,0 +1,6 @@
+{
+  "name": "Neko Launcher",
+  "description": "Dreamy anime launcher featuring customizable pastel-neon widgets, gorgeous anime wallpapers, high-contrast hexagonal custom icons, and an interactive Neko assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
